@@ -1,12 +1,12 @@
 <template>
-  <NavBar/>
+  <Top/>
 </template>
 
 <script>
-import NavBar from '../components/NavBar.vue'
+import Top from '../components/Top.vue'
 
   export default {
-  components: { NavBar },
+  components: { Top },
     name: 'Home',
   }
 </script>
