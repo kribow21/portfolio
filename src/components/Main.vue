@@ -22,13 +22,18 @@
                 rounded
                 >Lets Connect</v-btn>
             </v-row>
+            <v-row id="about" justify="center">
+                <AboutMe/>
+            </v-row>
         </v-container>
     </div>
 </template>
 
 <script>
+import AboutMe from './AboutMe.vue'
     export default {
-        name : "Top"
+  components: { AboutMe },
+        name : "Main"
     }
 </script>
 
@@ -38,6 +43,9 @@ div{
     height: 60vh;
     margin: 0;
     padding: 0;
+}
+#about{
+    margin: 0;
 }
 #connectBtn{
     position: absolute;

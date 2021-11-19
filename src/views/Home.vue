@@ -1,12 +1,15 @@
 <template>
-  <Top/>
+  <div>
+    <Main/>
+  </div>
 </template>
 
 <script>
-import Top from '../components/Top.vue'
+
+import Main from '../components/Main.vue'
 
   export default {
-  components: { Top },
+  components: { Main,},
     name: 'Home',
   }
 </script>
