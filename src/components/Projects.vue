@@ -4,7 +4,7 @@
         <v-container>
             <v-row>
                 <v-col cols="6" order-sm>
-                <h2>Mock Twitter</h2>
+                <h2><a href="https://www.kbtweeter.ml/#/" target="_blank">Mock Twitter</a></h2>
                     <img src="../assets/tweeter.png">
                     <v-col>
                         <v-btn
@@ -42,7 +42,7 @@
                     </v-col>
                 </v-col>
                 <v-col cols="6" order-sm>
-                <h2>Seas The Day</h2>
+                <h2><a href="https://www.seastheday.cc/#/" target="_blank">Seas The Day </a></h2>
                     <img src="../assets/seastheday.png">
                     <v-col>
                         <v-btn
@@ -99,7 +99,7 @@ div{
 h1, h2{
     padding-top: 2vh;
     font-family: 'Kreon', serif;
-    padding-left: 5vw;
+    padding-left: 15px;
     padding-right: 5vw;
 }
 img{
@@ -109,5 +109,7 @@ img{
 p{
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+h2 a{
+    color: Black;
+}
 </style>
