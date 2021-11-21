@@ -1,9 +1,9 @@
 <template>
     <div>
         <h1>Project Highlights</h1>
-        <v-container>
+        <v-container fluid>
             <v-row>
-                <v-col cols="6" order-sm>
+                <v-col cols="6" align="center" >
                 <h2><a href="https://www.kbtweeter.ml/#/" target="_blank">Mock Twitter</a></h2>
                     <img src="../assets/tweeter.png">
                     <v-col>
@@ -41,7 +41,7 @@
                         >Axios</v-btn>
                     </v-col>
                 </v-col>
-                <v-col cols="6" order-sm>
+                <v-col cols="6" align="center" >
                 <h2><a href="https://www.seastheday.cc/#/" target="_blank">Seas The Day </a></h2>
                     <img src="../assets/seastheday.png">
                     <v-col>
@@ -96,11 +96,15 @@ div{
     width: 100vw;
 }
 /*Mobile media rules*/
-h1, h2{
+h1{
     padding-top: 2vh;
     font-family: 'Kreon', serif;
     padding-left: 15px;
     padding-right: 5vw;
+}
+h2{
+    font-family: 'Kreon', serif;
+
 }
 img{
     width: 30vw;
@@ -111,5 +115,8 @@ p{
 }
 h2 a{
     color: Black;
+}
+h2 a:hover{
+    color: rgb(243, 217, 248);
 }
 </style>

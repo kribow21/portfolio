@@ -16,11 +16,6 @@
                 >
                 <img src="../assets/Kheadshot.png" alt="Image of Kristin">
                 </v-avatar>
-                <v-btn
-                id="connectBtn"
-                elevation="2"
-                rounded
-                >Lets Connect</v-btn>
             </v-row>
             <v-row>
                 <AboutMe/>
@@ -28,26 +23,27 @@
             <v-row>
                 <Projects/>
             </v-row>
+            <v-row>
+                <Contact/>
+            </v-row>
         </v-container>
+        <Footer/>
     </main>
 </template>
 
 <script>
 import AboutMe from './AboutMe.vue'
+import Contact from './Contact.vue'
+import Footer from './Footer.vue'
 import Projects from './Projects.vue'
     export default {
-  components: { AboutMe, Projects  },
+  components: { AboutMe, Projects, Contact, Footer  },
     name : "Main"
     }
 </script>
 
 <style scoped>
 /*Mobile media rules*/
-#connectBtn{
-    position: absolute;
-    margin-top: 25vh;
-    color: rgb(156, 123, 199);
-}
 h1{
     position: absolute;
     font-size: 2rem;
@@ -66,9 +62,6 @@ h3{
 }
 /*Tablet media rules*/
 @media only screen and (min-width: 600px) {
-#connectBtn{
-    margin-top: 40vh;
-}
 h1{
     font-size: 2rem;
     margin-top: 12vh;
@@ -83,10 +76,7 @@ h3{
 /*Desktop media rules*/
 @media only screen and (min-width: 1025px) {
     #background{
-        height:60vh;
-    }
-    #connectBtn{
-    margin-top: 45vh;
+        height:50vh;
     }
     h1{
     font-size: 3rem;

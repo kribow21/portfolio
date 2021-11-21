@@ -1,8 +1,8 @@
 <template>
     <div>
         <h1>A Little About Me</h1>
-        <p> I recently graduated from Innotech College where i completed the Full Stack Development Diploma. 
-            Throughout the program I was able to put together some projects showcasing the technologies I learned. 
+        <p> I recently graduated from Innotech College where i completed the 6 month Full Stack Development Diploma. 
+            Throughout the program I was able to put together some full stack projects showcasing the technologies I learned.
             If you're looking for an eager to learn developer, then you've come to the right place!
         </p>
         <h1>Technologies I've been working with recently:</h1>
@@ -12,7 +12,7 @@
                 <li>HTML</li>
                 <li>CSS / SCSS</li>
                 <li>JavaScript</li>
-                <li>VueJS</li>
+                <li>VueJS / Vuex / VueRouter</li>
             </ul>
             <ul>
                 <li>Python</li>
