@@ -24,6 +24,9 @@ h1, h3{
     padding-top: 2vh;
     padding-left: 15px;
 }
+h3 a{
+    color: Black;
+}
 h3 a:hover{
     color: rgb(243, 217, 248);
 }
