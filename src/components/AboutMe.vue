@@ -2,7 +2,8 @@
     <div>
         <h1>A Little About Me</h1>
         <p> I recently graduated from Innotech College where i completed the 6 month Full Stack Development Diploma. 
-            Throughout the program I was able to put together some full stack projects showcasing the technologies I learned.
+            Throughout the program I was able to put together some full stack projects showcasing the technologies I learned, from requirements gathered and prototyping
+            to writing and deploying the code onto a virtual google cloud machine.
             If you're looking for an eager to learn developer, then you've come to the right place!
         </p>
         <h1>Technologies I've been working with recently:</h1>
@@ -20,6 +21,7 @@
                 <li>SQL</li>
                 <li>MariaDB</li>
                 <li>Apache</li>
+                <li>Figma</li>
             </ul>
         </div>
     </div>
