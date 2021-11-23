@@ -5,10 +5,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Kreon&display=swap" rel="stylesheet">
         <v-container fluid>
             <v-row justify="center">
+                <a id="top"></a>
                 <v-img id="background"
-                src="https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5MDcwMDQ1OXx8ZW58MHx8fHw%3D&w=1000&q=80">
+                src="https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5MDcwMDQ1OXx8ZW58MHx8fHw%3D&w=1000&q=80" alt="background image">
                 </v-img>
-                <h1>Hi! Im Kristin Bowles</h1>
+                <h1>Hi! I'm Kristin Bowles</h1>
                 <h3>Motivated Full Stack Web Developer</h3>
                 <v-avatar
                 id="avitar"
@@ -27,6 +28,9 @@
                 <Contact/>
             </v-row>
         </v-container>
+        <section>
+            <a href="#top" id="toTop">Back to top</a>
+        </section>
         <Footer/>
     </main>
 </template>
@@ -66,6 +70,9 @@ h1{
     font-size: 2rem;
     margin-top: 12vh;
 }
+#background{
+    height:50vh;
+}
 h3{
     margin-top: 18vh;
 }
@@ -76,7 +83,7 @@ h3{
 /*Desktop media rules*/
 @media only screen and (min-width: 1025px) {
     #background{
-        height:50vh;
+        height:48vh;
     }
     h1{
     font-size: 3rem;
@@ -87,5 +94,11 @@ h3{
     #avitar{
     margin-top: 24vh;
     }
+}
+section{
+    background-color: rgb(156, 138, 155);
+}
+section a{
+    color: black;
 }
 </style>

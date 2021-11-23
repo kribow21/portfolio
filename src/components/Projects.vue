@@ -7,7 +7,7 @@
                 <h2><a href="https://www.kbtweeter.ml/#/" target="_blank">Mock Twitter</a></h2>
                 <h2><a href="https://github.com/kribow21/TweeterBackend.git" target="_blank">Backend Code</a></h2>
                 <h2><a href="https://github.com/kribow21/TweeterFrontend.git" target="_blank">Frontend Code</a></h2>
-                    <img src="../assets/tweeter.png">
+                    <img src="../assets/tweeter.png" alt="Mock Tweeter Login Page">
                     <v-col>
                         <v-btn
                         href="https://www.javascript.com/"
@@ -47,7 +47,7 @@
                 <h2><a href="https://www.seastheday.cc/#/" target="_blank">Seas The Day </a></h2>
                 <h2><a href="https://github.com/kribow21/mvpFrontend.git" target="_blank">Frontend Code</a></h2>
                 <h2><a href="https://github.com/kribow21/mvpBackend.git" target="_blank">Backend Code</a></h2>
-                    <img src="../assets/seastheday.png">
+                    <img src="../assets/seastheday.png" alt="SeastheDay Online Journal">
                     <v-col>
                         <v-btn
                         href="https://www.javascript.com/"
