@@ -2,7 +2,6 @@
     <div>
         <h1>Contact Info</h1>
         <h3>Email : <a href="mailto:kristinbowles21@gmail.com"> kristinbowles21@gmail.com</a></h3>
-        <h3>Phone : <a href="tel:7805010674">780-501-0674</a></h3>
         <h3>LinkedIn : <a href="https://www.linkedin.com/in/kristin-bowles-3b909121a/" target="_blank">Kristin Bowles</a></h3>
     </div>
 </template>

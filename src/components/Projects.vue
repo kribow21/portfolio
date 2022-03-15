@@ -4,7 +4,7 @@
         <v-container fluid>
             <v-row>
                 <v-col cols="6" align="center" >
-                <h2><a href="https://www.kbtweeter.ml/#/" target="_blank">Mock Twitter</a></h2>
+                <h2><a href="https://kbtweeter.click/#/" target="_blank">Mock Twitter</a></h2>
                 <h2><a href="https://github.com/kribow21/TweeterBackend.git" target="_blank">Backend Code</a></h2>
                 <h2><a href="https://github.com/kribow21/TweeterFrontend.git" target="_blank">Frontend Code</a></h2>
                     <img src="../assets/tweeter.png" alt="Mock Tweeter Login Page">
