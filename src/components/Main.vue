@@ -41,7 +41,7 @@ import Contact from './Contact.vue'
 import Footer from './Footer.vue'
 import Projects from './Projects.vue'
     export default {
-  components: { AboutMe, Projects, Contact, Footer  },
+  components: { AboutMe, Contact, Footer, Projects  },
     name : "Main"
     }
 </script>
